@@ -74,7 +74,7 @@ router.post("/auth/signin", passport.authenticate('local',
 
 router.get("/auth/logout", (req, res) => {
   req.logout();
-  req.flash('Success', 'Yey! your out!');
+  req.flash('success', 'Yey! your out!');
   res.redirect("/auth/signin");</div>
 })
 
