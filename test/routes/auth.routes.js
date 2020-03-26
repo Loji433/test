@@ -46,7 +46,6 @@ router.post("/auth/signup",
         }
         res.send("error!!!");
       });
-    }
   });
   
   router.get("/auth/signin", (request, response) => {
